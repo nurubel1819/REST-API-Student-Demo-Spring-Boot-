@@ -38,7 +38,7 @@ public class studentController {
     }
 
     //get all student
-    @GetMapping
+    @GetMapping("/all")
     private ResponseEntity<List<studentDto>> seeAllStudent()
     {
         return ResponseEntity.ok(student_service.seeAllStudent());

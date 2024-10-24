@@ -2,14 +2,13 @@ package net.rubel.student.controller;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
-import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
 import net.rubel.student.service.studentService;
 import net.rubel.student.dto.studentDto;
 
 import java.util.List;
 
-@Controller
+@RestController
 @RequestMapping("/students")
 public class studentController {
 
